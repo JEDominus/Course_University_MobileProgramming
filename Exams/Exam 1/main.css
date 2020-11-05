@@ -1,0 +1,35 @@
+#btnSuscribirse{
+    background-color: rgb(191, 12, 12);
+    color: white;
+    font-size: 12.5px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    border-radius: 5px;
+}
+
+#btnLogin{
+    background-color: white;
+    color: rgb(191, 12, 12);
+    font-size: 12.5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    border-radius: 5px;
+    border: 1px, solid;
+    border-color: rgb(220, 220, 220);
+}
+
+#dropdownMenuLink{
+    color: black;
+    font-size: 12.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6.5px;
+    padding-bottom: 6.5px;
+    border-radius: 5px;
+    border: 1px, solid;
+    border-color: rgb(220, 220, 220);
+}
