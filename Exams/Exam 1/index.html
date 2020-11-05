@@ -1,24 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
+<html lang="en"><!--INICIO HTML-->
+    <head><!--INICIO HEAD-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="main.css">
-        <link rel="shortcut icon" type="image/ico" href="https://www.marca.com/favicon.ico">
-        <title>MARCA Claro México - Diario online líder en información deportiva</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    </head>
-    <body>
+        <link rel="stylesheet" href="main.css"><!--INYECCION DEL ESTILO EN CSS-->
+        <link rel="shortcut icon" type="image/ico" href="https://www.marca.com/favicon.ico"><!--ICONO DE LA PAGINA-->
+        <title>MARCA Claro México - Diario online líder en información deportiva</title><!--TITULO DE LA PAGINA-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><!--LIBRERIA DE BOOTSTRAP-->
+    </head><!--FIN HEAD-->
+    <body><!--INICIO BODY-->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!--INICIO BARRA SUPERIOR-->
         <div class="container-fluid"><!--INICIO CONTENEDOR 1-->
-            <div class="row my-3 justify-content-end"><!--INICIO RENGLON 1-->
+            <div class="row mt-3 justify-content-end"><!--INICIO RENGLON 1-->
                 <div class="col-md-4 text-center col-sm-6 text-left col-xs-12"><!--INICIO COLUMNA 1.1-->
                     <img src="src/MARCA Claro.jpeg" style="width: 250px;" class="col"><!--LOGOTIPO SUPERIOR-->
                 </div><!--FIN COLUMNA 1.1-->
                 <div class="col-md-4 text-right my-2 col-sm-6 text-right col-xs-12 text-center"><!--INICIO COLUMNA 1.2-->
-                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><!--DROPDOWN PAIS-->
-                        <img src="src/iconfinder_168_Ensign_Flag_Nation_mexico_2634356.png" style="width: 25px;">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><!--INICIO DROPDOWN-->
+                        <img src="src/iconfinder_168_Ensign_Flag_Nation_mexico_2634356.png" style="width: 25px;"><!--ICONO BANDERA DE MEXICO-->
                         MX
-                    </a>                    
+                    </a><!--FIN DROPDOWN-->
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"><!--INICIO OPCIONES DROPDOWN-->
                         <a class="dropdown-item" href="#"> <img src="src/iconfinder_242_Ensign_Flag_Nation_spain_2634423.png" style="width: 25px;"> ES (España)</a><!--DROPDOWN OPCION 1-->
                         <a class="dropdown-item" href="#"> <img src="src/iconfinder_274_Ensign_Flag_Nation_states_2634451.png" style="width: 25px;"> US (USA)</a><!--DROPDOWN OPCION 2-->
@@ -30,11 +32,123 @@
                 </div><!--FIN COLUMNA 1.2-->
             </div><!--FIN RENGLON 1-->
         </div><!--FIN CONTENEDOR 1-->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
-</html>
+        <!--FIN BARRA SUPERIOR-->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <!--INICIO NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-1 sticky-top" id="navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ml-3">
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Fútbol</b></a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Baloncesto</b></a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Motor</b></a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Polideportivo</b></a>
+                    </li>
+                    <li class="nav-item active dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>Mas</b></a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Buscar en marca.com" aria-label="Recipient's username" aria-describedby="basic-addon2" id="iBuscar">
+                        <div class="input-group-append">
+                            <button class="btn mr-4 p-0" type="button" id="btnSearch"><img id="imgButton" src="src/search.png" alt=""></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+         </nav>
+        <!--FIN NAVBAR-->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><!--LIBRERIA DE BOOTSTRAP-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><!--LIBRERIA DE BOOTSTRAP-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><!--LIBRERIA DE BOOTSTRAP-->
+    </body><!--FIN BODY-->
+    <script src="./main.js"></script>
+</html><!--FIN HTML-->
 
 <!--
     https://jehatred.github.io/Mobile_Programming/Exams/Exam%201/
