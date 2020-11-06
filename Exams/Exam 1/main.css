@@ -23,7 +23,7 @@
     border-color: rgb(220, 220, 220);
 }
 
-#btnSuscribirse:hover, #btnLogin:hover{
+#btnSuscribirse:hover, #btnLogin:hover, .li1:hover{
     background-color: black;
     color: white;
 }
@@ -39,29 +39,33 @@
     border: 1px, solid;
     border-color: rgb(220, 220, 220);
 }
-/*NAVBAR*/
-nav{
+/*NAVBAR 1*/
+#navbar1{
     background-color: rgb(191, 12, 12);
-    margin-top: 0px;
 }
 
-li{
+.li1{
     font-size: 16.5px;
-    padding: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0px;
     margin-right: 15px;
 }
 
 #iBuscar{
-    width: 220px;
+    font-size: 15px;
+    width: 200px;
     height: 35px;
     padding-left: 8px;
     padding-right: 8px;
-    padding-top: 2px;
-    padding-bottom: 3px;
+    padding-top: .5px;
+    padding-bottom: 1.5px;
     border-top-left-radius: 2.5px;
     border-bottom-left-radius: 2.5px;
     border: solid, 1px;
     border-color: white;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 #btnSearch{
@@ -70,9 +74,26 @@ li{
     background-color: white;
     border-top-right-radius: 2.5px;
     border-bottom-right-radius: 2.5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 #imgButton{
     width: 20px;
     height: 20px;
+}
+/*NAVBAR 2*/
+#navbar2{
+    background-color: rgb(233, 233, 233);
+}
+
+.li2{
+    width: 51px;
+    height: 40px;
+}
+
+.limg{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
 }
