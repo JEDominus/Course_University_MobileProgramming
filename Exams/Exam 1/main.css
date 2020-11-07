@@ -101,3 +101,7 @@
 .textDiv{
     background-image: linear-gradient(180deg,  rgba(255, 255, 255, 0),rgb(0, 0, 0));
 }
+
+#divHeaight{
+    height: 300px;
+}
