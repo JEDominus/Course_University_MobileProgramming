@@ -105,3 +105,12 @@
 #divHeaight{
     height: 300px;
 }
+/*PIE DE PAGINA*/
+#jumbo{
+    border-radius: 0px;
+    background-color: rgb(35,35,35);
+}
+
+#hrFotter{
+    border-color: white;
+}
