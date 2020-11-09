@@ -114,3 +114,34 @@
 #hrFotter{
     border-color: white;
 }
+
+#footerRow{
+    background-color: rgb(240,240,240);
+}
+
+.btnSocial{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+}
+
+#btnFacebook{
+    background-image: url(./src/facebook.png);
+    background-size: cover;
+}
+
+#btnTwitter{
+    background-image: url(./src/gorjeo.png);
+    background-size: cover;
+}
+
+#btnGoogle{
+    background-image: url(./src/google-mas.png);
+    background-size: cover;
+}
+
+#btnRSS{
+    background-image: url(./src/rss.png);
+    background-size: cover;
+}
